@@ -4,63 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3de748f-5c73-4060-8744-a8e5073cdfde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Screenshot/getProductTitles05062022103342png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/getProductTitles05062022103554png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/toUserAbleToSortProductList05062022104122png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/toUserShouldBeAbleToSortList05062022105059png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/toUserShouldBeAbleToSortList05062022110007png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/toUserShouldBeAbleToSortList05062022110324png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022161039png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022161040png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022161338png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022161340png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022161741png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022182324png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022183315png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022183513png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022194322png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022194553png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022194802png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022203429png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022214253png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldAbleToSearchProductByWord07062022203222png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeAbleToRegisterSuccessFully05062022094530png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeAbleToSeeAPopUpAlertPleaseSelectAnAnswer07062022140040png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022143445png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022143624png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022143917png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022144231png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022144900png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022144958png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022145454png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022152433png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList07062022212205png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList07062022213601png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadProp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NopCommerceNewRelease.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestData/Testconfig .properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/LoadProp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/NopCommerceNewRelease.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BuildYourOwnComputerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BuildYourOwnComputerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DesktopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DesktopPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EmailAFriendPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EmailAFriendPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/BuildYourOwnComputerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/BuildYourOwnComputerPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DesktopPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DesktopPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/EmailAFriendPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/EmailAFriendPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/RegistrationPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RegistrationSuccessPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/RegistrationSuccessPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/TestSuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/TestSuit.class" afterDir="false" />
-    </list>
+    <list default="true" id="f3de748f-5c73-4060-8744-a8e5073cdfde" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
