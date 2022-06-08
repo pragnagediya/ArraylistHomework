@@ -5,6 +5,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 public class RegistrationPage extends Utils {
+    LoadProp loadProp = new LoadProp();
     private By _genderButton = By.xpath("//input[@id=\"gender-male\"]");
     private By _firstName = By.xpath("//input[@name='FirstName']");
     private By _lastName = By.id("LastName");
@@ -15,24 +16,25 @@ public class RegistrationPage extends Utils {
     private By _password = By.id("Password");
     private By _confirmPassword = By.id("ConfirmPassword");
     private By _registerButton = By.name("register-button");
-    public void verifyUserIsOnRegistrationPage(){
+
+    public void verifyUserIsOnRegistrationPage() {
         // verify user is on correct registration page
 
         String actualRegistrationUrl = driver.getCurrentUrl();
-        Assert.assertTrue(actualRegistrationUrl.contains("register"),"your register url does not contain register word");
+        Assert.assertTrue(actualRegistrationUrl.contains("register"), "your register url does not contain register word");
     }
 
-    public void userEnterRegistrationDetails(){
+    public void userEnterRegistrationDetails() {
         //select male or female
         clickOnElement(_genderButton);
 
         //enter first name
         //driver.findElement(By.className("ico-register")).click();
-        typeText(_firstName,"Automation");
+        typeText(_firstName, loadProp.getProperty("firstname"));
 
         //enter lastname
         //driver.findElement(By.xpath("//input[@name='FirstName']")).sendKeys("Automation");
-        typeText(_lastName,"patel");
+        typeText(_lastName, loadProp.getProperty("lastname"));
         //driver.findElement(By.id("LastName")).sendKeys("patel");
 
 
@@ -49,19 +51,20 @@ public class RegistrationPage extends Utils {
         birthYear.selectByVisibleText("1990");
 
         //email
-        typeText(_email,"pragnagediya"+randomDate()+"@gmail.com");
+        typeText(_email, "pragnagediya" + randomDate() + "@gmail.com");
         //driver.findElement(By.id("Email")).sendKeys("pragnagediyad@gmail.com");
         //password
-        typeText(_password,"Sit@1117");
+        typeText(_password, "Sit@1117");
         //driver.findElement(By.id("Password")).sendKeys ( "Sit@1117");
         //confirm password
-        typeText(_confirmPassword,"Sit@1117");
+        typeText(_confirmPassword, "Sit@1117");
         //driver.findElement(By.id("ConfirmPassword")).sendKeys( "Sit@1117");
         //click register
         //clickOnElement register button
-        driverWaitForElementTobeClickable(_registerButton,10);
+        driverWaitForElementTobeClickable(_registerButton, 10);
 
 
-    }}
+    }
+}
 
 

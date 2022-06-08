@@ -2,7 +2,7 @@ package org.example;
 
 import org.testng.annotations.Test;
 
-    public class TestSuit extends BaseTest{
+public class TestSuit extends BaseTest {
     HomePage homepage = new HomePage();
     RegistrationPage registrationPage = new RegistrationPage();
     RegistrationSuccessPage registrationSuccessPage = new RegistrationSuccessPage();
@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
     DesktopPage desktopPage = new DesktopPage();
     EmailAFriendPage emailAFriendPage = new EmailAFriendPage();
     ShoppingCartPage shoppingCartPage = new ShoppingCartPage();
+    NopCommerceNewRelease nopCommerceNewRelease = new NopCommerceNewRelease();
 
 
     @Test
@@ -23,8 +24,7 @@ import org.testng.annotations.Test;
     }
 
     @Test
-    public void userShouldBeAbleToSelectProductAndPutAddToCart()
-    {
+    public void userShouldBeAbleToSelectProductAndPutAddToCart() {
         //SelectDesktopOptionFromComputer
         homepage.selectDesktopOptionFromComputer();
         //navigate to desired product page
@@ -44,35 +44,35 @@ import org.testng.annotations.Test;
     }
 
     @Test
-    public void RegisterUserShouldBeAbleToSendEmailToFriendForReferProduct()
-    {
-    //  userShouldBeAbleToRegisterPage
-    homepage.clickOnRegisterButton();
-    registrationPage.userEnterRegistrationDetails();
-    registrationSuccessPage.verifyUserRegisterSuccessfully();
-    //click on continue button
-    registrationSuccessPage.clickOnContinueButton();
-    //SelectDesktopOptionFromCompute
-    homepage.selectDesktopOptionFromComputer();
-    //navigate to desired product page
-    desktopPage.userShouldBeSelectDesireProduct();
-    //click on add to cart button
-    buildYourOwnComputerPage.userAbleToBuildYourComputerToPutInCart();
-    //click on email a friend button
-    buildYourOwnComputerPage.clickOnEmailAFriendButton();
-    //Enter detail of friend email
-    emailAFriendPage.userEnterEmailDetails();
+    public void RegisterUserShouldBeAbleToSendEmailToFriendForReferProduct() {
+        //  userShouldBeAbleToRegisterPage
+        homepage.clickOnRegisterButton();
+        registrationPage.userEnterRegistrationDetails();
+        registrationSuccessPage.verifyUserRegisterSuccessfully();
+        //click on continue button
+        registrationSuccessPage.clickOnContinueButton();
+        //SelectDesktopOptionFromCompute
+        homepage.selectDesktopOptionFromComputer();
+        //navigate to desired product page
+        desktopPage.userShouldBeSelectDesireProduct();
+        //click on add to cart button
+        buildYourOwnComputerPage.userAbleToBuildYourComputerToPutInCart();
+        //click on email a friend button
+        buildYourOwnComputerPage.clickOnEmailAFriendButton();
+        //Enter detail of friend email
+        emailAFriendPage.userEnterEmailDetails();
     }
+
     @Test
-    public void userShouldBeAbleToSeePriceAccordingByTheirSelectedCurrency()
-    {
+    public void userShouldBeAbleToSeePriceAccordingByTheirSelectedCurrency() {
         //click On Currency Button//
         // homepage.clickOnCurrencyButton();
         //check Price On Display Accordingly Selected Currency
         homepage.checkPriceOnDisplayAccordinglySelectedCurrency();
     }
+
     @Test
-        public void registerUserShouldBeAbleToVote(){
+    public void registerUserShouldBeAbleToVote() {
         //Verify that user is not able to vote without being registered
         homepage.verifyWithoutRegisterUserAbleToVote();
         //user need to be register
@@ -87,4 +87,59 @@ import org.testng.annotations.Test;
         //verify registered user is able to vote
         homepage.verifyRegisteredUserIsAbleToVote();
     }
+
+
+
+    @Test
+    public void userShouldBeAbleToSeeAPopUpAlertPleaseSelectAnAnswer() {
+        homepage.clickOnVoteButton();
     }
+
+    @Test
+    public void userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage() {
+        homepage.clickOnFacebookButton();
+
+    }
+
+    @Test
+    public void userShouldAbleToSearchProductByWord() {
+        homepage.enterWordInSearchTextBox("nike");
+
+    }
+
+    @Test
+    public void userAbleToSeeProductAccordingSelectedOption() {
+        homepage.clickOnComputer();
+        desktopPage.clickOnDesktop();
+        desktopPage.clickOnSortByZToAOption();
+        desktopPage.verifyProductListedInZToAFormat();
+
+
+    }
+
+    @Test
+    public void verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList() {
+        //on Home Page click under News and nopCommerce new release!, click on Details button
+        homepage.ClickOnDetailsButton();
+
+        nopCommerceNewRelease.checkURLOfThePage();
+
+
+        nopCommerceNewRelease.checkTitleOfThePage();
+
+        nopCommerceNewRelease.enterTitle();
+
+
+        nopCommerceNewRelease.enterComment();
+
+        nopCommerceNewRelease.clickOnCommentButton();
+
+
+        nopCommerceNewRelease.verifyMessageAfterClickingCommentButton();
+
+        nopCommerceNewRelease.verifyCommentHasBeenAddedToTheCommentList();
+
+    }
+
+
+}

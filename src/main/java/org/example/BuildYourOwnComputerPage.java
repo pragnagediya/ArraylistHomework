@@ -7,7 +7,7 @@ import org.testng.Assert;
 import static org.example.BasePage.driver;
 import static org.example.Utils.*;
 
-public class BuildYourOwnComputerPage extends Utils{
+public class BuildYourOwnComputerPage extends Utils {
     private By _addToCartButton = By.id("add-to-cart-button-1");
     private By _clickOnEmailAFriendButton = By.xpath("//button[@class='button-2 email-a-friend-button']");
     private By _selectProcessor = By.id("product_attribute_1");
@@ -22,25 +22,28 @@ public class BuildYourOwnComputerPage extends Utils{
         //click Add to cart button to put product in cart
         clickOnElement(_addToCartButton);
     }
-    public void clickOnEmailAFriendButton(){
+
+    public void clickOnEmailAFriendButton() {
         //click email a friend button//
-         clickOnElement(_clickOnEmailAFriendButton);
+        clickOnElement(_clickOnEmailAFriendButton);
 
     }
-public void selectOptionAccordinglyRequirement(){ //select processor
-    Select Processor = new Select(driver.findElement(_selectProcessor));
-    Processor.selectByValue("1");
-    //select ram
-    Select Ram = new Select(driver.findElement(_selectRam));
-    Ram.selectByValue("3");
-    //select HDD//
-    driverWaitForElementTobeClickable(_selectHDD,10);
-    //select OS//
-    clickOnElement(By.id("product_attribute_4_9"));
-    //select software//
 
-    clickOnElement(_selectSoftware1);
-    clickOnElement(_selectSoftware2);
+    public void selectOptionAccordinglyRequirement() { //select processor
+        Select Processor = new Select(driver.findElement(_selectProcessor));
+        Processor.selectByValue("1");
+        //select ram
+        Select Ram = new Select(driver.findElement(_selectRam));
+        Ram.selectByValue("3");
+        //select HDD//
+        driverWaitForElementTobeClickable(_selectHDD, 10);
+        //select OS//
+        clickOnElement(By.id("product_attribute_4_9"));
+        //select software//
 
-}}
+        clickOnElement(_selectSoftware1);
+        clickOnElement(_selectSoftware2);
+
+    }
+}
 

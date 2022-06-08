@@ -5,45 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3de748f-5c73-4060-8744-a8e5073cdfde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/registerUserShouldBeAbleToVote30052022202013png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeAbleToSelectProductAndPutAddToCart30052022194928png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeAbleToSelectProductAndPutAddToCart30052022195023png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BuildYourOwnComputerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DesktopPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EmailAFriendPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RegistrationSuccessPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ShoppingCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/msedgedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/BuildYourOwnComputerPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/DesktopPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/EmailAFriendPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/RegistrationPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/RegistrationSuccessPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/ShoppingCartPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/BaseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/example/TestSuit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/getProductTitles05062022103342png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/getProductTitles05062022103554png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/toUserAbleToSortProductList05062022104122png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/toUserShouldBeAbleToSortList05062022105059png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/toUserShouldBeAbleToSortList05062022110007png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/toUserShouldBeAbleToSortList05062022110324png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022161039png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022161040png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022161338png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022161340png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022161741png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022182324png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022183315png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022183513png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022194322png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022194553png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022194802png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022203429png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userAbleToSeeProductAccordingSelectedOption07062022214253png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldAbleToSearchProductByWord07062022203222png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeAbleToRegisterSuccessFully05062022094530png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeAbleToSeeAPopUpAlertPleaseSelectAnAnswer07062022140040png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022143445png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022143624png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022143917png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022144231png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022144900png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022144958png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022145454png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/userShouldBeNavigateSuccessfullyAfterClickingFacebookLinkFromHomePage07062022152433png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList07062022212205png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList07062022213601png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadProp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NopCommerceNewRelease.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestData/Testconfig .properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/LoadProp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/NopCommerceNewRelease.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BuildYourOwnComputerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BuildYourOwnComputerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DesktopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DesktopPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EmailAFriendPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EmailAFriendPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/BuildYourOwnComputerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/BuildYourOwnComputerPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DesktopPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DesktopPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/EmailAFriendPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/EmailAFriendPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RegistrationSuccessPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/RegistrationSuccessPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/TestSuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/TestSuit.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +94,7 @@
   <component name="ProjectId" id="29nfPCLz0KTRh8Dwe1WQRI4kqLO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -95,7 +112,7 @@
       <recent name="C:\Users\pragn\IdeaProjects\Seleniom02\src\test\java\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSuit">
+  <component name="RunManager" selected="TestNG.TestSuit.userShouldBeAbleToSeeAPopUpAlertPleaseSelectAnAnswer">
     <configuration name="TestSuit" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniom02" />
       <extension name="coverage">
@@ -113,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.RegisterUserShouldBeAbleToSendEmailToFriendForReferProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.userAbleToSeeProductAccordingSelectedOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniom02" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +140,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="RegisterUserShouldBeAbleToSendEmailToFriendForReferProduct" />
+      <option name="METHOD_NAME" value="userAbleToSeeProductAccordingSelectedOption" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.registerUserShouldBeAbleToVote" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.userShouldAbleToSearchProductByWord" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniom02" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +158,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="registerUserShouldBeAbleToVote" />
+      <option name="METHOD_NAME" value="userShouldAbleToSearchProductByWord" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,7 +166,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.userShouldBeAbleToRegisterSuccessFully" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.userShouldBeAbleToSeeAPopUpAlertPleaseSelectAnAnswer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniom02" />
       <extension name="coverage">
         <pattern>
@@ -159,7 +176,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToRegisterSuccessFully" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToSeeAPopUpAlertPleaseSelectAnAnswer" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -167,7 +184,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.userShouldBeAbleToSelectProductAndPutAddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniom02" />
       <extension name="coverage">
         <pattern>
@@ -177,7 +194,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToSelectProductAndPutAddToCart" />
+      <option name="METHOD_NAME" value="verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -187,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToSeeAPopUpAlertPleaseSelectAnAnswer" />
         <item itemvalue="TestNG.TestSuit" />
-        <item itemvalue="TestNG.TestSuit.registerUserShouldBeAbleToVote" />
-        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToSelectProductAndPutAddToCart" />
-        <item itemvalue="TestNG.TestSuit.RegisterUserShouldBeAbleToSendEmailToFriendForReferProduct" />
-        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToRegisterSuccessFully" />
+        <item itemvalue="TestNG.TestSuit.verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList" />
+        <item itemvalue="TestNG.TestSuit.userAbleToSeeProductAccordingSelectedOption" />
+        <item itemvalue="TestNG.TestSuit.userShouldAbleToSearchProductByWord" />
       </list>
     </recent_temporary>
   </component>
@@ -205,5 +222,20 @@
       <updated>1653753746728</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/TestSuit.java</url>
+          <line>120</line>
+          <properties class="org.example.TestSuit" method="verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
