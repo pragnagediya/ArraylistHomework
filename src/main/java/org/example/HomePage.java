@@ -161,5 +161,9 @@ public class HomePage extends Utils {
         clickOnElement(By.xpath("/html/body/div[6]/div[3]/div/div/div/div/div[5]/div[2]/div[2]/div[3]/a"));
 
     }
+    public void clickOnCategoryLink(String categoryName){
+        clickOnElement(By.linkText(categoryName));
+    }
+
 }
 

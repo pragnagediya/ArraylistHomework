@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3de748f-5c73-4060-8744-a8e5073cdfde" name="Changes" comment="" />
+    <list default="true" id="f3de748f-5c73-4060-8744-a8e5073cdfde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/category.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/registration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RunCuke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestData/Testconfig .properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestData/Testconfig .properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/TestSuit.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,8 +65,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/drivers" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../If else homework" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -56,8 +77,63 @@
       <recent name="C:\Users\pragn\IdeaProjects\Seleniom02\src\test\java\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSuit.userShouldBeAbleToSeeAPopUpAlertPleaseSelectAnAnswer">
-    <configuration name="TestSuit" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RunCuke">
+    <configuration name="Scenario: As a user, I should able to register successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/registration.feature" />
+      <option name="GLUE" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="new project copy for bdd" />
+      <option name="NAME_FILTER" value="^As a user\, I should able to register successfully$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As a user\, I should able to register successfully$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a user, I should able to register successfully" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User should be able to  navigate to desired category page successfully from top header menu" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/category.feature" />
+      <option name="GLUE" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="new project copy for bdd" />
+      <option name="NAME_FILTER" value="^User should be able to  navigate to desired category page successfully from top header menu$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User should be able to  navigate to desired category page successfully from top header menu$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should be able to  navigate to desired category page successfully from top header menu" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCuke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="new project copy for bdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RunCuke" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniom02" />
       <extension name="coverage">
         <pattern>
@@ -66,7 +142,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PostsTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -74,85 +150,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.userAbleToSeeProductAccordingSelectedOption" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.registerUserShouldBeAbleToVote" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniom02" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="userAbleToSeeProductAccordingSelectedOption" />
+      <option name="METHOD_NAME" value="registerUserShouldBeAbleToVote" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome -Dcloud" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.userShouldAbleToSearchProductByWord" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Seleniom02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="userShouldAbleToSearchProductByWord" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuit.userShouldBeAbleToSeeAPopUpAlertPleaseSelectAnAnswer" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Seleniom02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToSeeAPopUpAlertPleaseSelectAnAnswer" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSuit.verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Seleniom02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
-      <option name="METHOD_NAME" value="verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="JUnit.RunCuke" />
+      <item itemvalue="TestNG.TestSuit.registerUserShouldBeAbleToVote" />
+      <item itemvalue="TestNG.PostsTests" />
+      <item itemvalue="Cucumber Java.Scenario: As a user, I should able to register successfully" />
+      <item itemvalue="Cucumber Java.Scenario: User should be able to  navigate to desired category page successfully from top header menu" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSuit.userShouldBeAbleToSeeAPopUpAlertPleaseSelectAnAnswer" />
-        <item itemvalue="TestNG.TestSuit" />
-        <item itemvalue="TestNG.TestSuit.verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList" />
-        <item itemvalue="TestNG.TestSuit.userAbleToSeeProductAccordingSelectedOption" />
-        <item itemvalue="TestNG.TestSuit.userShouldAbleToSearchProductByWord" />
+        <item itemvalue="JUnit.RunCuke" />
+        <item itemvalue="Cucumber Java.Scenario: User should be able to  navigate to desired category page successfully from top header menu" />
+        <item itemvalue="Cucumber Java.Scenario: As a user, I should able to register successfully" />
+        <item itemvalue="TestNG.PostsTests" />
+        <item itemvalue="TestNG.TestSuit.registerUserShouldBeAbleToVote" />
       </list>
     </recent_temporary>
   </component>
@@ -170,14 +210,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/TestSuit.java</url>
-          <line>120</line>
-          <properties class="org.example.TestSuit" method="verifyThatUserCommentHasSuccessfullyBeenAddedToCommentsList">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/RunCuke.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

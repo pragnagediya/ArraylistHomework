@@ -7,6 +7,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.io.File;
 import java.io.IOException;
@@ -37,6 +38,9 @@ public class Utils extends BasePage {
     //user defined method for click element
     public static void clickOnElement(By by) {
         driver.findElement(by).click();
+    }
+    public void closeBrowser(){
+        driver.quit();
     }
 
     //user defined method for getTextElement
@@ -116,6 +120,9 @@ public class Utils extends BasePage {
     public static void driverWaitUrlContains(int time, String fraction) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(time));
         wait.until(ExpectedConditions.urlContains(fraction));
+    }
+    public static void verifyCurrentURL(String URL){
+        Assert.assertEquals(driver.getCurrentUrl(), URL);
     }
 
 
